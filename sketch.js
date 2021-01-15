@@ -38,7 +38,7 @@ function draw() {
     tom.collide(jerry);
     tom.collide(invisible);
     jerry.collide(invisible);
-    if(tom.x - jerryy.x < (tom.width/2 + jerry.width/2)){
+    if(tom.x - jerry.x < (tom.width/2 + jerry.width/2)){
         tom.addImage(tomImg3);
         tom.changeImage(tomImg3);
         jerry.addImage(jerryImg3);
